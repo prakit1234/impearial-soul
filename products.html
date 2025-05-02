@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - Impearial Soul</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/themes.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body class="theme-moon">
+    <nav class="navbar">
+        <div class="logo">Impearial Soul</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="themes.html">Themes</a>
+            <a href="#contact">Contact</a>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+            <button id="loginBtn" class="btn-login">Login</button>
+        </div>
+    </nav>
+
+    <main style="margin-top: 80px; padding: 2rem;">
+        <section class="products-header">
+            <h1>Our Products</h1>
+            <div class="category-filters">
+                <button class="category-btn active" data-category="all">All</button>
+                <button class="category-btn" data-category="keychains">Keychains</button>
+                <button class="category-btn" data-category="stickers">Stickers</button>
+                <button class="category-btn" data-category="ribbons">Ribbons</button>
+            </div>
+        </section>
+
+        <section class="product-grid" id="productGrid">
+            <!-- Products will be loaded dynamically -->
+        </section>
+    </main>
+
+    <!-- Cart Modal -->
+    <div class="cart-modal">
+        <div class="cart-header">
+            <h2>Your Cart</h2>
+            <button class="close-cart">&times;</button>
+        </div>
+        <div class="cart-items">
+            <!-- Cart items will be loaded dynamically -->
+        </div>
+        <div class="cart-total">
+            <h3>Total: <span id="cartTotal">$0.00</span></h3>
+            <button class="checkout-btn">Checkout</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Impearial Soul</h3>
+                <p>Rule with grace. Live with soul</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="themes.html">Themes</a>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: prakitchetia@gmail.com</p>
+                <p>Phone: +1 (555) 123-4567</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Impearial Soul. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Firebase Scripts -->
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.8.0/firebase-auth.js"></script>
+    <script src="js/firebase-config.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html> 
