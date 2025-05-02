@@ -13,7 +13,7 @@ An elegant e-commerce platform offering a unique shopping experience with custom
 
 ## Use
 -  Visit [Cloudflare](https://impearial-soul.pages.dev)
-    or [Vercel] (https://impearial-soul.pages.dev)
+    or [Vercel](https://impearial-soul.vercel.app)
 
 ## Technologies Used
 - HTML5
