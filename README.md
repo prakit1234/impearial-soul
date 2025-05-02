@@ -11,9 +11,9 @@ An elegant e-commerce platform offering a unique shopping experience with custom
 - Optional user accounts
 - Direct product browsing
 
-#Use
-##Visit
--https://impearial-soul.pages.dev
+##Use
+-Visit https://impearial-soul.pages.dev
+
 
 ## Technologies Used
 - HTML5
